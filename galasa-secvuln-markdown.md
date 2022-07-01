@@ -1166,14 +1166,14 @@ Galasa Projects/Images directly affected:
   - io.etcd:jetcd-core:0.5.9
   - io.grpc:grpc-core:1.39.0
 
+- CVE-2021-43797 - **Medium**
+  - io.netty:netty-handler-proxy:4.1.52.Final
+  - io.netty:netty-codec-http:4.1.52.Final
+
 - sonatype-2020-0026 - **Medium**
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec-http:4.1.52.Final
   - io.netty:netty-handler:4.1.52.Final
-
-- CVE-2021-43797 - **Medium**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1218,6 +1218,9 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.framework.api.authentication
 
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson:2.8.5
+
 - CVE-2020-36518 - **High**
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
@@ -1225,9 +1228,6 @@ Galasa Projects/Images directly affected:
 - CVE-2020-25649 - **High**
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
 
 - CVE-2019-12814 - **Medium**
   - com.auth0:java-jwt:3.8.1
@@ -1286,15 +1286,15 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.framework.docker.controller
 
+- sonatype-2021-4682 - **High**
+  - com.github.docker-java:docker-java-core:3.2.5
+  - com.fasterxml.jackson.core:jackson-databind:2.10.3
+
 - CVE-2020-36518 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
 - CVE-2020-25649 - **High**
-  - com.github.docker-java:docker-java-core:3.2.5
-  - com.fasterxml.jackson.core:jackson-databind:2.10.3
-
-- sonatype-2021-4682 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
@@ -1306,21 +1306,21 @@ Galasa Projects/Images directly affected:
   - com.github.docker-java:docker-java-core:3.2.5
   - com.google.guava:guava:19.0
 
+- CVE-2020-0187 - **Medium**
+  - org.bouncycastle:bcprov-jdk15on:1.60
+
 - sonatype-2020-0770 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-- CVE-2020-0187 - **Medium**
+- CVE-2020-26939 - **Medium**
+  - org.bouncycastle:bcprov-jdk15on:1.60
+
+- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - CVE-2020-13956 - **Medium**
   - com.github.docker-java:docker-java-transport-httpclient5:3.2.5
   - org.apache.httpcomponents.client5:httpclient5:5.0
-
-- sonatype-2021-4916 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
-
-- CVE-2020-26939 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
 
 - sonatype-2019-0673 - **Low**
   - org.bouncycastle:bcprov-jdk15on:1.60
@@ -1353,11 +1353,6 @@ Galasa Projects/Images directly affected:
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:24.1.1-jre
 
-- sonatype-2018-0035 - **Medium**
-  - io.kubernetes:client-java:1.0.0
-  - io.kubernetes:client-java-api:1.0.0
-  - com.squareup.okhttp:okhttp:2.7.5
-
 - sonatype-2021-1446 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - ch.qos.logback:logback-classic:1.2.3
@@ -1367,20 +1362,25 @@ Galasa Projects/Images directly affected:
   - io.kubernetes:client-java:1.0.0
   - org.bouncycastle:bcprov-ext-jdk15on:1.59
 
-- sonatype-2020-0770 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
+- sonatype-2018-0035 - **Medium**
+  - io.kubernetes:client-java:1.0.0
+  - io.kubernetes:client-java-api:1.0.0
+  - com.squareup.okhttp:okhttp:2.7.5
 
 - CVE-2020-0187 - **Medium**
+  - org.bouncycastle:bcprov-jdk15on:1.60
+
+- sonatype-2020-0770 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - CVE-2021-22569 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - com.google.protobuf:protobuf-java:3.4.0
 
-- CVE-2020-26939 - **Medium**
+- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-- sonatype-2021-4916 - **Medium**
+- CVE-2020-26939 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - sonatype-2019-0673 - **Low**
@@ -1417,13 +1417,13 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.kubernetes.manager
 
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson:2.7
+
 - CVE-2021-0341 - **High**
   - io.kubernetes:client-java:14.0.0
   - io.kubernetes:client-java-api:14.0.0
   - com.squareup.okhttp3:okhttp:4.9.1
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.7
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1474,11 +1474,11 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.selenium.manager
 
-- CVE-2021-0341 - **High**
-  - com.squareup.okhttp3:okhttp:3.11.0
-
 - CVE-2022-25647 - **High**
   - com.google.code.gson:gson:2.8.5
+
+- CVE-2021-0341 - **High**
+  - com.squareup.okhttp3:okhttp:3.11.0
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1514,14 +1514,14 @@ Galasa Projects/Images directly affected:
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
   - org.eclipse.jetty:jetty-webapp:9.4.20.v20190813
 
+- sonatype-2014-0173 - **Medium**
+  - org.apache.felix:org.apache.felix.http.jetty:4.0.14
+  - commons-fileupload:commons-fileupload:1.3.3
+
 - CVE-2020-27223 - **Medium**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
   - org.eclipse.jetty:jetty-server:9.4.20.v20190813
   - org.eclipse.jetty:jetty-http:9.4.20.v20190813
-
-- sonatype-2014-0173 - **Medium**
-  - org.apache.felix:org.apache.felix.http.jetty:4.0.14
-  - commons-fileupload:commons-fileupload:1.3.3
 
 - CVE-2020-27218 - **Medium**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
