@@ -20,7 +20,7 @@
 - [sonatype-2020-1031](https://ossindex.sonatype.org/vulnerability/sonatype-2020-1031?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - High - 1 project
 - [sonatype-2021-4682](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4682?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - High - 1 project
 - [CVE-2020-27216](https://ossindex.sonatype.org/vulnerability/CVE-2020-27216?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-webapp&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - High - 1 project
-- [CVE-2021-42550](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517?component-type=maven&component-name=ch.qos.logback%2Flogback-core&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
+- [CVE-2021-42550](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517?component-type=maven&component-name=ch.qos.logback%2Flogback-classic&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [CVE-2021-43797](https://ossindex.sonatype.org/vulnerability/CVE-2021-43797?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [sonatype-2020-0026](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0026?component-type=maven&component-name=io.netty%2Fnetty-handler&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [sonatype-2021-0818](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0818?component-type=maven&component-name=io.grpc%2Fgrpc-core&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
@@ -30,11 +30,11 @@
 - [CVE-2019-12384](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [CVE-2019-12814](https://ossindex.sonatype.org/vulnerability/CVE-2019-12814?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [CVE-2020-15522](https://ossindex.sonatype.org/vulnerability/CVE-2020-15522?component-type=maven&component-name=org.bouncycastle%2Fbcprov-ext-jdk15on&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
-- [CVE-2021-21295](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
+- [CVE-2021-21295](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295?component-type=maven&component-name=io.netty%2Fnetty-codec-http2&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [sonatype-2018-0035](https://ossindex.sonatype.org/vulnerability/sonatype-2018-0035?component-type=maven&component-name=com.squareup.okhttp%2Fokhttp&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [sonatype-2021-1446](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1446?component-type=maven&component-name=ch.qos.logback%2Flogback-core&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [CVE-2020-0187](https://ossindex.sonatype.org/vulnerability/CVE-2020-0187?component-type=maven&component-name=org.bouncycastle%2Fbcprov-jdk15on&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 2 projects
-- [CVE-2021-21290](https://ossindex.sonatype.org/vulnerability/CVE-2021-21290?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
+- [CVE-2021-21290](https://ossindex.sonatype.org/vulnerability/CVE-2021-21290?component-type=maven&component-name=io.netty%2Fnetty-common&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [CVE-2021-22569](https://ossindex.sonatype.org/vulnerability/CVE-2021-22569?component-type=maven&component-name=com.google.protobuf%2Fprotobuf-java&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 3 projects
 - [sonatype-2020-0770](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0770?component-type=maven&component-name=org.bouncycastle%2Fbcprov-jdk15on&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 2 projects
 - [CVE-2020-13956](https://ossindex.sonatype.org/vulnerability/CVE-2020-13956?component-type=maven&component-name=org.apache.httpcomponents.client5%2Fhttpclient5&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
@@ -465,7 +465,7 @@ Galasa Projects/Images directly affected:
 
 Severity: **Medium**
 
-[Link](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517?component-type=maven&component-name=ch.qos.logback%2Flogback-core&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
+[Link](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517?component-type=maven&component-name=ch.qos.logback%2Flogback-classic&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
 
 Vulnerable artifacts:
 
@@ -664,7 +664,7 @@ Galasa Projects/Images directly affected:
 
 Severity: **Medium**
 
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295?component-type=maven&component-name=io.netty%2Fnetty-codec-http2&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
 
 Vulnerable artifacts:
 
@@ -753,7 +753,7 @@ Galasa Projects/Images directly affected:
 
 Severity: **Medium**
 
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2021-21290?component-type=maven&component-name=io.netty%2Fnetty-codec-http&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2021-21290?component-type=maven&component-name=io.netty%2Fnetty-common&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
 
 Vulnerable artifacts:
 
@@ -1150,45 +1150,46 @@ Galasa Projects/Images directly affected:
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec:4.1.52.Final
 
-- sonatype-2020-1031 - **High**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
-
 - CVE-2021-37136 - **High**
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec:4.1.52.Final
+
+- sonatype-2020-1031 - **High**
+  - io.netty:netty-handler-proxy:4.1.52.Final
+  - io.netty:netty-codec-http:4.1.52.Final
 
 - CVE-2021-37137 - **High**
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec:4.1.52.Final
 
-- sonatype-2021-0818 - **Medium**
-  - io.etcd:jetcd-core:0.5.9
-  - io.grpc:grpc-core:1.39.0
+- CVE-2021-43797 - **Medium**
+  - io.netty:netty-handler-proxy:4.1.52.Final
+  - io.netty:netty-codec-http:4.1.52.Final
 
 - sonatype-2020-0026 - **Medium**
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec-http:4.1.52.Final
   - io.netty:netty-handler:4.1.52.Final
 
-- CVE-2021-43797 - **Medium**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
+- sonatype-2021-0818 - **Medium**
+  - io.etcd:jetcd-core:0.5.9
+  - io.grpc:grpc-core:1.39.0
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
 
 - CVE-2021-21295 - **Medium**
+  - io.etcd:jetcd-core:0.5.9
+  - io.grpc:grpc-netty:1.39.0
+  - io.netty:netty-codec-http2:4.1.52.Final
+
+- CVE-2021-21290 - **Medium**
   - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
+  - io.netty:netty-common:4.1.52.Final
 
 - CVE-2021-22569 - **Medium**
   - com.google.protobuf:protobuf-java-util:3.17.2
   - com.google.protobuf:protobuf-java:3.17.2
-
-- CVE-2021-21290 - **Medium**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
 
 
 ### dev.galasa:dev.galasa.docker.manager
@@ -1217,10 +1218,6 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.framework.api.authentication
 
-- CVE-2020-36518 - **High**
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
 - CVE-2022-25647 - **High**
   - com.google.code.gson:gson:2.8.5
 
@@ -1228,11 +1225,15 @@ Galasa Projects/Images directly affected:
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
-- CVE-2019-12384 - **Medium**
+- CVE-2020-36518 - **High**
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
 - CVE-2019-12814 - **Medium**
+  - com.auth0:java-jwt:3.8.1
+  - com.fasterxml.jackson.core:jackson-databind:2.9.9
+
+- CVE-2019-12384 - **Medium**
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
@@ -1285,7 +1286,7 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.framework.docker.controller
 
-- CVE-2020-36518 - **High**
+- CVE-2020-25649 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
@@ -1293,7 +1294,7 @@ Galasa Projects/Images directly affected:
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
-- CVE-2020-25649 - **High**
+- CVE-2020-36518 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
@@ -1305,10 +1306,13 @@ Galasa Projects/Images directly affected:
   - com.github.docker-java:docker-java-core:3.2.5
   - com.google.guava:guava:19.0
 
+- sonatype-2020-0770 - **Medium**
+  - org.bouncycastle:bcprov-jdk15on:1.60
+
 - CVE-2020-0187 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-- sonatype-2020-0770 - **Medium**
+- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - CVE-2020-13956 - **Medium**
@@ -1316,9 +1320,6 @@ Galasa Projects/Images directly affected:
   - org.apache.httpcomponents.client5:httpclient5:5.0
 
 - CVE-2020-26939 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
-
-- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - sonatype-2019-0673 - **Low**
@@ -1336,40 +1337,35 @@ Galasa Projects/Images directly affected:
   - ch.qos.logback:logback-classic:1.2.3
   - ch.qos.logback:logback-core:1.2.3
 
+- CVE-2018-1000180 - **High**
+  - io.kubernetes:client-java:1.0.0
+  - org.bouncycastle:bcprov-ext-jdk15on:1.59
+
 - CVE-2021-0341 - **High**
   - io.kubernetes:client-java:1.0.0
   - io.kubernetes:client-java-api:1.0.0
   - com.squareup.okhttp:okhttp:2.7.5
 
-- CVE-2018-1000180 - **High**
-  - io.kubernetes:client-java:1.0.0
-  - org.bouncycastle:bcprov-ext-jdk15on:1.59
-
 - CVE-2021-42550 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - ch.qos.logback:logback-classic:1.2.3
-  - ch.qos.logback:logback-core:1.2.3
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:24.1.1-jre
-
-- CVE-2020-15522 - **Medium**
-  - io.kubernetes:client-java:1.0.0
-  - org.bouncycastle:bcprov-ext-jdk15on:1.59
-
-- sonatype-2018-0035 - **Medium**
-  - io.kubernetes:client-java:1.0.0
-  - io.kubernetes:client-java-api:1.0.0
-  - com.squareup.okhttp:okhttp:2.7.5
 
 - sonatype-2021-1446 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - ch.qos.logback:logback-classic:1.2.3
   - ch.qos.logback:logback-core:1.2.3
 
-- CVE-2021-22569 - **Medium**
+- sonatype-2018-0035 - **Medium**
   - io.kubernetes:client-java:1.0.0
-  - com.google.protobuf:protobuf-java:3.4.0
+  - io.kubernetes:client-java-api:1.0.0
+  - com.squareup.okhttp:okhttp:2.7.5
+
+- CVE-2020-15522 - **Medium**
+  - io.kubernetes:client-java:1.0.0
+  - org.bouncycastle:bcprov-ext-jdk15on:1.59
 
 - sonatype-2020-0770 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
@@ -1377,10 +1373,14 @@ Galasa Projects/Images directly affected:
 - CVE-2020-0187 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-- sonatype-2021-4916 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
+- CVE-2021-22569 - **Medium**
+  - io.kubernetes:client-java:1.0.0
+  - com.google.protobuf:protobuf-java:3.4.0
 
 - CVE-2020-26939 - **Medium**
+  - org.bouncycastle:bcprov-jdk15on:1.60
+
+- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - sonatype-2019-0673 - **Low**
