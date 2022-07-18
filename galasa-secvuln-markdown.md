@@ -47,7 +47,7 @@
 - [CVE-2020-27218](https://ossindex.sonatype.org/vulnerability/CVE-2020-27218?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-server&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Medium - 1 project
 - [sonatype-2019-0673](https://ossindex.sonatype.org/vulnerability/sonatype-2019-0673?component-type=maven&component-name=org.bouncycastle%2Fbcprov-jdk15on&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Low - 6 projects
 - [CVE-2021-34428](https://ossindex.sonatype.org/vulnerability/CVE-2021-34428?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-server&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Low - 1 project
-- [CVE-2022-2047](https://ossindex.sonatype.org/vulnerability/CVE-2022-2047?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-client&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Low - 1 project
+- [CVE-2022-2047](https://ossindex.sonatype.org/vulnerability/CVE-2022-2047?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-server&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1) - Low - 1 project
 
 ### CVE-2018-1000613
 
@@ -1088,7 +1088,7 @@ Galasa Projects/Images directly affected:
 
 Severity: **Low**
 
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2022-2047?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-client&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2022-2047?component-type=maven&component-name=org.eclipse.jetty%2Fjetty-server&utm_source=ossindex-client&utm_medium=integration&utm_content=1.1.1)
 
 Vulnerable artifacts:
 
@@ -1127,42 +1127,17 @@ Galasa Projects/Images directly affected:
 ### Summary
 
 - dev.galasa:dev.galasa.artifact.manager - 2 High+, 26 dependents
-- dev.galasa:dev.galasa.core.manager - 1 High+, 12 dependents
 - dev.galasa:dev.galasa.cps.etcd - 4 High+, 7 Other, 1 dependents
-- dev.galasa:dev.galasa.docker.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.elasticlog.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.framework - 1 High+, 34 dependents
-- dev.galasa:dev.galasa.framework.api - 1 High+
 - dev.galasa:dev.galasa.framework.api.authentication - 3 High+, 3 Other
-- dev.galasa:dev.galasa.framework.api.bootstrap - 1 High+
-- dev.galasa:dev.galasa.framework.api.cps - 1 High+
-- dev.galasa:dev.galasa.framework.api.health - 1 High+
-- dev.galasa:dev.galasa.framework.api.ras - 1 High+
-- dev.galasa:dev.galasa.framework.api.runs - 1 High+
-- dev.galasa:dev.galasa.framework.api.testcatalog - 1 High+
-- dev.galasa:dev.galasa.framework.api.webui - 1 High+
 - dev.galasa:dev.galasa.framework.docker.controller - 3 High+, 8 Other, 1 dependents
 - dev.galasa:dev.galasa.framework.k8s.controller - 4 High+, 11 Other, 1 dependents
-- dev.galasa:dev.galasa.galasaecosystem.manager - 1 High+
-- dev.galasa:dev.galasa.http.manager - 1 High+
-- dev.galasa:dev.galasa.http.manager.ivt - 1 High+
 - dev.galasa:dev.galasa.jmeter.manager - 2 High+, 1 dependents
 - dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 3 Other, 7 dependents
 - dev.galasa:dev.galasa.mq.manager - 0 High+, 3 Other, 1 dependents
-- dev.galasa:dev.galasa.openstack.manager - 1 High+
-- dev.galasa:dev.galasa.phoenix2.manager - 1 High+
 - dev.galasa:dev.galasa.ras.couchdb - 1 High+, 1 Other
 - dev.galasa:dev.galasa.selenium.manager - 2 High+, 3 Other, 2 dependents
 - dev.galasa:dev.galasa.sem.manager - 2 High+
 - dev.galasa:dev.galasa.uber.obr - 3 High+, 6 Other
-- dev.galasa:dev.galasa.zos3270.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.zosbatch.rseapi.manager - 1 High+
-- dev.galasa:dev.galasa.zosbatch.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosconsole.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosfile.rseapi.manager - 1 High+
-- dev.galasa:dev.galasa.zosfile.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosrseapi.manager - 1 High+
 - dev.galasa:dev.galasa.zossecurity.manager - 1 High+, 1 Other
 
 ### dev.galasa:dev.galasa.artifact.manager
@@ -1175,15 +1150,17 @@ Galasa Projects/Images directly affected:
   - org.apache.velocity:velocity:1.7
 
 
-### dev.galasa:dev.galasa.core.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.cps.etcd
 
 - sonatype-2021-0789 - **High**
+  - io.netty:netty-handler-proxy:4.1.52.Final
+  - io.netty:netty-codec:4.1.52.Final
+
+- CVE-2021-37136 - **High**
+  - io.netty:netty-handler-proxy:4.1.52.Final
+  - io.netty:netty-codec:4.1.52.Final
+
+- CVE-2021-37137 - **High**
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec:4.1.52.Final
 
@@ -1191,13 +1168,9 @@ Galasa Projects/Images directly affected:
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec-http:4.1.52.Final
 
-- CVE-2021-37137 - **High**
+- CVE-2021-43797 - **Medium**
   - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec:4.1.52.Final
-
-- CVE-2021-37136 - **High**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec:4.1.52.Final
+  - io.netty:netty-codec-http:4.1.52.Final
 
 - sonatype-2020-0026 - **Medium**
   - io.netty:netty-handler-proxy:4.1.52.Final
@@ -1207,10 +1180,6 @@ Galasa Projects/Images directly affected:
 - sonatype-2021-0818 - **Medium**
   - io.etcd:jetcd-core:0.5.9
   - io.grpc:grpc-core:1.39.0
-
-- CVE-2021-43797 - **Medium**
-  - io.netty:netty-handler-proxy:4.1.52.Final
-  - io.netty:netty-codec-http:4.1.52.Final
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1229,42 +1198,18 @@ Galasa Projects/Images directly affected:
   - com.google.protobuf:protobuf-java:3.17.2
 
 
-### dev.galasa:dev.galasa.docker.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.elasticlog.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.7
-
-
-### dev.galasa:dev.galasa.framework.api
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.framework.api.authentication
 
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
+- CVE-2020-25649 - **High**
+  - com.auth0:java-jwt:3.8.1
+  - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
 - CVE-2020-36518 - **High**
   - com.auth0:java-jwt:3.8.1
   - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
-- CVE-2020-25649 - **High**
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson:2.8.5
 
 - CVE-2019-12384 - **Medium**
   - com.auth0:java-jwt:3.8.1
@@ -1279,59 +1224,17 @@ Galasa Projects/Images directly affected:
   - commons-codec:commons-codec:1.12
 
 
-### dev.galasa:dev.galasa.framework.api.bootstrap
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.cps
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.health
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.ras
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.runs
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.testcatalog
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.webui
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.framework.docker.controller
+
+- CVE-2020-25649 - **High**
+  - com.github.docker-java:docker-java-core:3.2.5
+  - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
 - CVE-2020-36518 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
 - sonatype-2021-4682 - **High**
-  - com.github.docker-java:docker-java-core:3.2.5
-  - com.fasterxml.jackson.core:jackson-databind:2.10.3
-
-- CVE-2020-25649 - **High**
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
@@ -1390,11 +1293,6 @@ Galasa Projects/Images directly affected:
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:24.1.1-jre
 
-- sonatype-2021-1446 - **Medium**
-  - io.kubernetes:client-java:1.0.0
-  - ch.qos.logback:logback-classic:1.2.3
-  - ch.qos.logback:logback-core:1.2.3
-
 - CVE-2020-15522 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - org.bouncycastle:bcprov-ext-jdk15on:1.59
@@ -1404,42 +1302,29 @@ Galasa Projects/Images directly affected:
   - io.kubernetes:client-java-api:1.0.0
   - com.squareup.okhttp:okhttp:2.7.5
 
-- CVE-2020-0187 - **Medium**
-  - org.bouncycastle:bcprov-jdk15on:1.60
+- sonatype-2021-1446 - **Medium**
+  - io.kubernetes:client-java:1.0.0
+  - ch.qos.logback:logback-classic:1.2.3
+  - ch.qos.logback:logback-core:1.2.3
 
-- sonatype-2020-0770 - **Medium**
+- CVE-2020-0187 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - CVE-2021-22569 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - com.google.protobuf:protobuf-java:3.4.0
 
-- sonatype-2021-4916 - **Medium**
+- sonatype-2020-0770 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
 - CVE-2020-26939 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-- sonatype-2019-0673 - **Low**
+- sonatype-2021-4916 - **Medium**
   - org.bouncycastle:bcprov-jdk15on:1.60
 
-
-### dev.galasa:dev.galasa.galasaecosystem.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.http.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.http.manager.ivt
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
+- sonatype-2019-0673 - **Low**
+  - org.bouncycastle:bcprov-jdk15on:1.60
 
 
 ### dev.galasa:dev.galasa.jmeter.manager
@@ -1454,13 +1339,13 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.kubernetes.manager
 
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.7
-
 - CVE-2021-0341 - **High**
   - io.kubernetes:client-java:14.0.0
   - io.kubernetes:client-java-api:14.0.0
   - com.squareup.okhttp3:okhttp:4.9.1
+
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson:2.7
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1487,18 +1372,6 @@ Galasa Projects/Images directly affected:
   - org.bouncycastle:bcprov-jdk15on:1.68
 
 
-### dev.galasa:dev.galasa.openstack.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.phoenix2.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.ras.couchdb
 
 - CVE-2022-25647 - **High**
@@ -1511,11 +1384,11 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.selenium.manager
 
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
 - CVE-2021-0341 - **High**
   - com.squareup.okhttp3:okhttp:3.11.0
+
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson:2.8.5
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:30.1.1-jre
@@ -1551,14 +1424,14 @@ Galasa Projects/Images directly affected:
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
   - org.eclipse.jetty:jetty-webapp:9.4.20.v20190813
 
-- sonatype-2014-0173 - **Medium**
-  - org.apache.felix:org.apache.felix.http.jetty:4.0.14
-  - commons-fileupload:commons-fileupload:1.3.3
-
 - CVE-2020-27223 - **Medium**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
   - org.eclipse.jetty:jetty-server:9.4.20.v20190813
   - org.eclipse.jetty:jetty-http:9.4.20.v20190813
+
+- sonatype-2014-0173 - **Medium**
+  - org.apache.felix:org.apache.felix.http.jetty:4.0.14
+  - commons-fileupload:commons-fileupload:1.3.3
 
 - CVE-2020-27218 - **Medium**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
@@ -1573,57 +1446,7 @@ Galasa Projects/Images directly affected:
 
 - CVE-2022-2047 - **Low**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
-  - org.eclipse.jetty.websocket:websocket-server:9.4.20.v20190813
-  - org.eclipse.jetty.websocket:websocket-client:9.4.20.v20190813
-  - org.eclipse.jetty:jetty-client:9.4.20.v20190813
-
-
-### dev.galasa:dev.galasa.zos3270.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosbatch.rseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosbatch.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosconsole.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosfile.rseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosfile.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosrseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson:2.8.5
+  - org.eclipse.jetty:jetty-server:9.4.20.v20190813
 
 
 ### dev.galasa:dev.galasa.zossecurity.manager
