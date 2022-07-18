@@ -1289,6 +1289,7 @@ Galasa Projects/Images directly affected:
 - CVE-2021-42550 - **Medium**
   - io.kubernetes:client-java:1.0.0
   - ch.qos.logback:logback-classic:1.2.3
+  - ch.qos.logback:logback-core:1.2.3
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava:24.1.1-jre
@@ -1446,9 +1447,7 @@ Galasa Projects/Images directly affected:
 
 - CVE-2022-2047 - **Low**
   - org.apache.felix:org.apache.felix.http.jetty:4.0.14
-  - org.eclipse.jetty.websocket:websocket-server:9.4.20.v20190813
-  - org.eclipse.jetty.websocket:websocket-client:9.4.20.v20190813
-  - org.eclipse.jetty:jetty-client:9.4.20.v20190813
+  - org.eclipse.jetty:jetty-server:9.4.20.v20190813
 
 
 ### dev.galasa:dev.galasa.zossecurity.manager
