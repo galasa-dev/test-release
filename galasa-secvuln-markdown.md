@@ -16,7 +16,7 @@
 - [CVE-2021-28165](https://ossindex.sonatype.org/vulnerability/CVE-2021-28165) - High - 1 project
 - [CVE-2021-37136](https://ossindex.sonatype.org/vulnerability/CVE-2021-37136) - High - 1 project
 - [CVE-2021-37137](https://ossindex.sonatype.org/vulnerability/CVE-2021-37137) - High - 1 project
-- [CVE-2022-25647](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1694) - High - 30 projects
+- [CVE-2022-25647](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1694) - High - 31 projects
 - [sonatype-2020-1031](https://ossindex.sonatype.org/vulnerability/sonatype-2020-1031) - High - 1 project
 - [sonatype-2021-4682](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4682) - High - 1 project
 - [CVE-2020-27216](https://ossindex.sonatype.org/vulnerability/CVE-2020-27216) - High - 1 project
@@ -25,6 +25,7 @@
 - [sonatype-2020-0026](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0026) - Medium - 1 project
 - [sonatype-2021-0818](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0818) - Medium - 1 project
 - [sonatype-2020-0926](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0926) - Medium - 5 projects
+- [sonatype-2022-4262](https://ossindex.sonatype.org/vulnerability/sonatype-2022-4262) - Medium - 2 projects
 - [CVE-2018-10237](https://ossindex.sonatype.org/vulnerability/CVE-2018-10237) - Medium - 1 project
 - [CVE-2018-20200](https://ossindex.sonatype.org/vulnerability/CVE-2018-20200) - Medium - 1 project
 - [CVE-2019-12384](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384) - Medium - 1 project
@@ -368,6 +369,9 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.galasaecosystem.manager
   - com.google.code.gson:gson:2.8.5
 
+- dev.galasa:dev.galasa.githubissue.manager
+  - com.google.code.gson:gson:2.8.5
+
 - dev.galasa:dev.galasa.http.manager
   - com.google.code.gson:gson:2.8.5
 
@@ -575,6 +579,31 @@ Galasa Projects/Images directly affected:
 
 - dev.galasa:dev.galasa.selenium.manager
   - com.google.guava:guava:30.1.1-jre
+
+
+### sonatype-2022-4262
+
+Severity: **Medium**
+
+[Link](https://ossindex.sonatype.org/vulnerability/sonatype-2022-4262)
+
+Vulnerable artifacts:
+
+com.squareup.okhttp3:okhttp:3.11.0
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.selenium.manager
+  - com.squareup.okhttp3:okhttp:3.11.0
+
+com.squareup.okhttp3:okhttp:4.9.1
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.kubernetes.manager
+  - io.kubernetes:client-java:14.0.0
+  - io.kubernetes:client-java-api:14.0.0
+  - com.squareup.okhttp3:okhttp:4.9.1
 
 
 ### CVE-2018-10237
@@ -1126,7 +1155,7 @@ Galasa Projects/Images directly affected:
 
 ### Summary
 
-- dev.galasa:dev.galasa.artifact.manager - 2 High+, 26 dependents
+- dev.galasa:dev.galasa.artifact.manager - 2 High+, 28 dependents
 - dev.galasa:dev.galasa.core.manager - 1 High+, 12 dependents
 - dev.galasa:dev.galasa.cps.etcd - 4 High+, 7 Other, 1 dependents
 - dev.galasa:dev.galasa.docker.manager - 1 High+, 1 dependents
@@ -1144,15 +1173,16 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.framework.docker.controller - 3 High+, 8 Other, 1 dependents
 - dev.galasa:dev.galasa.framework.k8s.controller - 4 High+, 11 Other, 1 dependents
 - dev.galasa:dev.galasa.galasaecosystem.manager - 1 High+
+- dev.galasa:dev.galasa.githubissue.manager - 1 High+
 - dev.galasa:dev.galasa.http.manager - 1 High+
 - dev.galasa:dev.galasa.http.manager.ivt - 1 High+
 - dev.galasa:dev.galasa.jmeter.manager - 2 High+, 1 dependents
-- dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 3 Other, 7 dependents
+- dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 4 Other, 7 dependents
 - dev.galasa:dev.galasa.mq.manager - 0 High+, 3 Other, 1 dependents
 - dev.galasa:dev.galasa.openstack.manager - 1 High+
 - dev.galasa:dev.galasa.phoenix2.manager - 1 High+
 - dev.galasa:dev.galasa.ras.couchdb - 1 High+, 1 Other
-- dev.galasa:dev.galasa.selenium.manager - 2 High+, 3 Other, 2 dependents
+- dev.galasa:dev.galasa.selenium.manager - 2 High+, 4 Other, 2 dependents
 - dev.galasa:dev.galasa.sem.manager - 2 High+
 - dev.galasa:dev.galasa.uber.obr - 3 High+, 6 Other
 - dev.galasa:dev.galasa.zos3270.manager - 1 High+, 1 dependents
@@ -1522,6 +1552,13 @@ Galasa Projects/Images directly affected:
     - com.google.code.gson:gson:2.8.5
 
 
+### dev.galasa:dev.galasa.githubissue.manager
+
+- CVE-2022-25647 - **High**
+  - com.google.code.gson:gson
+    - com.google.code.gson:gson:2.8.5
+
+
 ### dev.galasa:dev.galasa.http.manager
 
 - CVE-2022-25647 - **High**
@@ -1563,6 +1600,12 @@ Galasa Projects/Images directly affected:
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava
     - com.google.guava:guava:30.1.1-jre
+
+- sonatype-2022-4262 - **Medium**
+  - com.squareup.okhttp3:okhttp
+    - io.kubernetes:client-java:14.0.0
+    - io.kubernetes:client-java-api:14.0.0
+    - com.squareup.okhttp3:okhttp:4.9.1
 
 - CVE-2021-22569 - **Medium**
   - com.google.protobuf:protobuf-java
@@ -1634,6 +1677,10 @@ Galasa Projects/Images directly affected:
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava
     - com.google.guava:guava:30.1.1-jre
+
+- sonatype-2022-4262 - **Medium**
+  - com.squareup.okhttp3:okhttp
+    - com.squareup.okhttp3:okhttp:3.11.0
 
 - CVE-2018-20200 - **Medium**
   - com.squareup.okhttp3:okhttp
