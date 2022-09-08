@@ -10,8 +10,8 @@
 - [sonatype-2021-1175](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1175) - High - 1 project
 - [sonatype-2021-0789](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0789) - High - 1 project
 - [CVE-2018-1000180](https://ossindex.sonatype.org/vulnerability/CVE-2018-1000180) - High - 1 project
-- [CVE-2020-25649](https://ossindex.sonatype.org/vulnerability/CVE-2020-25649) - High - 2 projects
-- [CVE-2020-36518](https://ossindex.sonatype.org/vulnerability/CVE-2020-36518) - High - 2 projects
+- [CVE-2020-25649](https://ossindex.sonatype.org/vulnerability/CVE-2020-25649) - High - 1 project
+- [CVE-2020-36518](https://ossindex.sonatype.org/vulnerability/CVE-2020-36518) - High - 1 project
 - [CVE-2021-0341](https://ossindex.sonatype.org/vulnerability/CVE-2021-0341) - High - 3 projects
 - [CVE-2021-28165](https://ossindex.sonatype.org/vulnerability/CVE-2021-28165) - High - 1 project
 - [CVE-2021-37136](https://ossindex.sonatype.org/vulnerability/CVE-2021-37136) - High - 1 project
@@ -30,8 +30,6 @@
 - [sonatype-2022-4262](https://ossindex.sonatype.org/vulnerability/sonatype-2022-4262) - Medium - 2 projects
 - [CVE-2018-10237](https://ossindex.sonatype.org/vulnerability/CVE-2018-10237) - Medium - 1 project
 - [CVE-2018-20200](https://ossindex.sonatype.org/vulnerability/CVE-2018-20200) - Medium - 1 project
-- [CVE-2019-12384](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384) - Medium - 1 project
-- [CVE-2019-12814](https://ossindex.sonatype.org/vulnerability/CVE-2019-12814) - Medium - 1 project
 - [CVE-2020-15522](https://ossindex.sonatype.org/vulnerability/CVE-2020-15522) - Medium - 1 project
 - [CVE-2021-21295](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295) - Medium - 1 project
 - [sonatype-2018-0035](https://ossindex.sonatype.org/vulnerability/sonatype-2018-0035) - Medium - 1 project
@@ -44,7 +42,7 @@
 - [CVE-2020-26939](https://ossindex.sonatype.org/vulnerability/CVE-2020-26939) - Medium - 2 projects
 - [CVE-2020-27223](https://ossindex.sonatype.org/vulnerability/CVE-2020-27223) - Medium - 1 project
 - [CVE-2021-29425](https://ossindex.sonatype.org/vulnerability/sonatype-2018-0705) - Medium - 1 project
-- [sonatype-2012-0050](https://ossindex.sonatype.org/vulnerability/sonatype-2012-0050) - Medium - 3 projects
+- [sonatype-2012-0050](https://ossindex.sonatype.org/vulnerability/sonatype-2012-0050) - Medium - 2 projects
 - [sonatype-2014-0173](https://ossindex.sonatype.org/vulnerability/sonatype-2014-0173) - Medium - 1 project
 - [sonatype-2021-4916](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4916) - Medium - 3 projects
 - [CVE-2020-27218](https://ossindex.sonatype.org/vulnerability/CVE-2020-27218) - Medium - 1 project
@@ -187,14 +185,6 @@ Galasa Projects/Images directly affected:
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
 
 ### CVE-2020-36518
 
@@ -211,14 +201,6 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.framework.docker.controller
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
 
 ### CVE-2021-0341
@@ -699,40 +681,6 @@ Galasa Projects/Images directly affected:
   - com.squareup.okhttp3:okhttp:3.11.0
 
 
-### CVE-2019-12384
-
-Severity: **Medium**
-
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384)
-
-Vulnerable artifacts:
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-
-### CVE-2019-12814
-
-Severity: **Medium**
-
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2019-12814)
-
-Vulnerable artifacts:
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-
 ### CVE-2020-15522
 
 Severity: **Medium**
@@ -1030,14 +978,6 @@ Galasa Projects/Images directly affected:
   - org.apache.httpcomponents:httpclient-osgi:4.5.13
   - commons-codec:commons-codec:1.11
 
-commons-codec:commons-codec:1.12
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - commons-codec:commons-codec:1.12
-
 
 ### sonatype-2014-0173
 
@@ -1222,7 +1162,7 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.elasticlog.manager - 1 High+, 1 dependents
 - dev.galasa:dev.galasa.framework - 1 High+, 34 dependents
 - dev.galasa:dev.galasa.framework.api - 1 High+
-- dev.galasa:dev.galasa.framework.api.authentication - 3 High+, 3 Other
+- dev.galasa:dev.galasa.framework.api.authentication - 1 High+
 - dev.galasa:dev.galasa.framework.api.bootstrap - 1 High+
 - dev.galasa:dev.galasa.framework.api.cps - 1 High+
 - dev.galasa:dev.galasa.framework.api.health - 1 High+
@@ -1376,34 +1316,9 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.framework.api.authentication
 
-- CVE-2020-25649 - **High**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2020-36518 - **High**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
 - CVE-2022-25647 - **High**
   - com.google.code.gson:gson
     - com.google.code.gson:gson:2.8.5
-
-- CVE-2019-12384 - **Medium**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2019-12814 - **Medium**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- sonatype-2012-0050 - **Medium**
-  - commons-codec:commons-codec
-    - com.auth0:java-jwt:3.8.1
-    - commons-codec:commons-codec:1.12
 
 
 ### dev.galasa:dev.galasa.framework.api.bootstrap
