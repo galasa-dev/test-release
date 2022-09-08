@@ -17,11 +17,13 @@
 - [CVE-2021-37136](https://ossindex.sonatype.org/vulnerability/CVE-2021-37136) - High - 1 project
 - [CVE-2021-37137](https://ossindex.sonatype.org/vulnerability/CVE-2021-37137) - High - 1 project
 - [CVE-2022-25647](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1694) - High - 31 projects
+- [CVE-2022-25857](https://ossindex.sonatype.org/vulnerability/CVE-2022-25857) - High - 4 projects
 - [sonatype-2020-1031](https://ossindex.sonatype.org/vulnerability/sonatype-2020-1031) - High - 1 project
 - [sonatype-2021-4682](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4682) - High - 1 project
 - [CVE-2020-27216](https://ossindex.sonatype.org/vulnerability/CVE-2020-27216) - High - 1 project
 - [CVE-2021-42550](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517) - Medium - 1 project
 - [CVE-2021-43797](https://ossindex.sonatype.org/vulnerability/CVE-2021-43797) - Medium - 1 project
+- [CVE-2022-38752](https://ossindex.sonatype.org/vulnerability/CVE-2022-38752) - Medium - 4 projects
 - [sonatype-2020-0026](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0026) - Medium - 1 project
 - [sonatype-2021-0818](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0818) - Medium - 1 project
 - [sonatype-2020-0926](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0926) - Medium - 5 projects
@@ -415,6 +417,35 @@ Galasa Projects/Images directly affected:
   - com.google.code.gson:gson:2.8.5
 
 
+### CVE-2022-25857
+
+Severity: **High**
+
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2022-25857)
+
+Vulnerable artifacts:
+
+org.yaml:snakeyaml:1.29
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.kubernetes.manager
+  - org.yaml:snakeyaml:1.29
+
+org.yaml:snakeyaml:1.30
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.framework.k8s.controller
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.galasaecosystem.manager
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.uber.obr
+  - org.yaml:snakeyaml:1.30
+
+
 ### sonatype-2020-1031
 
 Severity: **High**
@@ -507,6 +538,35 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.cps.etcd
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec-http:4.1.52.Final
+
+
+### CVE-2022-38752
+
+Severity: **Medium**
+
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2022-38752)
+
+Vulnerable artifacts:
+
+org.yaml:snakeyaml:1.29
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.kubernetes.manager
+  - org.yaml:snakeyaml:1.29
+
+org.yaml:snakeyaml:1.30
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.framework.k8s.controller
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.galasaecosystem.manager
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.uber.obr
+  - org.yaml:snakeyaml:1.30
 
 
 ### sonatype-2020-0026
@@ -1171,20 +1231,20 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.framework.api.testcatalog - 1 High+
 - dev.galasa:dev.galasa.framework.api.webui - 1 High+
 - dev.galasa:dev.galasa.framework.docker.controller - 3 High+, 8 Other, 1 dependents
-- dev.galasa:dev.galasa.framework.k8s.controller - 4 High+, 11 Other, 1 dependents
-- dev.galasa:dev.galasa.galasaecosystem.manager - 1 High+
+- dev.galasa:dev.galasa.framework.k8s.controller - 5 High+, 12 Other, 1 dependents
+- dev.galasa:dev.galasa.galasaecosystem.manager - 2 High+, 1 Other
 - dev.galasa:dev.galasa.githubissue.manager - 1 High+
 - dev.galasa:dev.galasa.http.manager - 1 High+
 - dev.galasa:dev.galasa.http.manager.ivt - 1 High+
 - dev.galasa:dev.galasa.jmeter.manager - 2 High+, 1 dependents
-- dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 4 Other, 7 dependents
+- dev.galasa:dev.galasa.kubernetes.manager - 3 High+, 5 Other, 7 dependents
 - dev.galasa:dev.galasa.mq.manager - 0 High+, 3 Other, 1 dependents
 - dev.galasa:dev.galasa.openstack.manager - 1 High+
 - dev.galasa:dev.galasa.phoenix2.manager - 1 High+
 - dev.galasa:dev.galasa.ras.couchdb - 1 High+, 1 Other
 - dev.galasa:dev.galasa.selenium.manager - 2 High+, 4 Other, 2 dependents
 - dev.galasa:dev.galasa.sem.manager - 2 High+
-- dev.galasa:dev.galasa.uber.obr - 3 High+, 6 Other
+- dev.galasa:dev.galasa.uber.obr - 4 High+, 7 Other
 - dev.galasa:dev.galasa.zos3270.manager - 1 High+, 1 dependents
 - dev.galasa:dev.galasa.zosbatch.rseapi.manager - 1 High+
 - dev.galasa:dev.galasa.zosbatch.zosmf.manager - 1 High+
@@ -1472,6 +1532,10 @@ Galasa Projects/Images directly affected:
     - io.kubernetes:client-java-api:1.0.0
     - com.squareup.okhttp:okhttp:2.7.5
 
+- CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
 - CVE-2021-42550 - **Medium**
   - ch.qos.logback:logback-classic
     - io.kubernetes:client-java:1.0.0
@@ -1481,6 +1545,10 @@ Galasa Projects/Images directly affected:
     - io.kubernetes:client-java:1.0.0
     - ch.qos.logback:logback-classic:1.2.3
     - ch.qos.logback:logback-core:1.2.3
+
+- CVE-2022-38752 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava
@@ -1551,6 +1619,14 @@ Galasa Projects/Images directly affected:
   - com.google.code.gson:gson
     - com.google.code.gson:gson:2.8.5
 
+- CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
+- CVE-2022-38752 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
 
 ### dev.galasa:dev.galasa.githubissue.manager
 
@@ -1596,6 +1672,14 @@ Galasa Projects/Images directly affected:
 - CVE-2022-25647 - **High**
   - com.google.code.gson:gson
     - com.google.code.gson:gson:2.7
+
+- CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.29
+
+- CVE-2022-38752 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.29
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava
@@ -1715,10 +1799,18 @@ Galasa Projects/Images directly affected:
     - org.eclipse.jetty:jetty-server:9.4.20.v20190813
     - org.eclipse.jetty:jetty-io:9.4.20.v20190813
 
+- CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
 - CVE-2020-27216 - **High**
   - org.eclipse.jetty:jetty-webapp
     - org.apache.felix:org.apache.felix.http.jetty:4.0.14
     - org.eclipse.jetty:jetty-webapp:9.4.20.v20190813
+
+- CVE-2022-38752 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
 
 - CVE-2020-27223 - **Medium**
   - org.eclipse.jetty:jetty-http
