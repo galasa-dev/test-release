@@ -5,8 +5,6 @@
 ### Summary
 
 - [CVE-2018-1000613](https://ossindex.sonatype.org/vulnerability/CVE-2018-1000613) - Critical - 1 project
-- [sonatype-2015-0002](https://ossindex.sonatype.org/vulnerability/sonatype-2015-0002) - Critical - 3 projects
-- [CVE-2020-13936](https://ossindex.sonatype.org/vulnerability/CVE-2020-13936) - High - 4 projects
 - [sonatype-2021-1175](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1175) - High - 1 project
 - [sonatype-2021-0789](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0789) - High - 1 project
 - [CVE-2018-1000180](https://ossindex.sonatype.org/vulnerability/CVE-2018-1000180) - High - 1 project
@@ -65,56 +63,6 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.framework.k8s.controller
   - io.kubernetes:client-java:1.0.0
   - org.bouncycastle:bcprov-ext-jdk15on:1.59
-
-
-### sonatype-2015-0002
-
-Severity: **Critical**
-
-[Link](https://ossindex.sonatype.org/vulnerability/sonatype-2015-0002)
-
-Vulnerable artifacts:
-
-commons-collections:commons-collections:3.2.1
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.artifact.manager
-  - org.apache.velocity:velocity:1.7
-  - commons-collections:commons-collections:3.2.1
-
-- dev.galasa:dev.galasa.jmeter.manager
-  - org.apache.velocity:velocity:1.7
-  - commons-collections:commons-collections:3.2.1
-
-- dev.galasa:dev.galasa.sem.manager
-  - org.apache.velocity:velocity:1.7
-  - commons-collections:commons-collections:3.2.1
-
-
-### CVE-2020-13936
-
-Severity: **High**
-
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2020-13936)
-
-Vulnerable artifacts:
-
-org.apache.velocity:velocity:1.7
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.artifact.manager
-  - org.apache.velocity:velocity:1.7
-
-- dev.galasa:dev.galasa.jmeter.manager
-  - org.apache.velocity:velocity:1.7
-
-- dev.galasa:dev.galasa.sem.manager
-  - org.apache.velocity:velocity:1.7
-
-- dev.galasa:dev.galasa.uber.obr
-  - org.apache.velocity:velocity:1.7
 
 
 ### sonatype-2021-1175
@@ -1074,31 +1022,16 @@ Galasa Projects/Images directly affected:
 
 ### Summary
 
-- dev.galasa:dev.galasa.artifact.manager - 2 High+, 28 dependents
 - dev.galasa:dev.galasa.cps.etcd - 4 High+, 7 Other, 1 dependents
 - dev.galasa:dev.galasa.framework.docker.controller - 3 High+, 8 Other, 1 dependents
 - dev.galasa:dev.galasa.framework.k8s.controller - 5 High+, 13 Other, 1 dependents
 - dev.galasa:dev.galasa.galasaecosystem.manager - 1 High+, 2 Other
-- dev.galasa:dev.galasa.jmeter.manager - 2 High+, 1 dependents
 - dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 6 Other, 7 dependents
 - dev.galasa:dev.galasa.mq.manager - 0 High+, 3 Other, 1 dependents
 - dev.galasa:dev.galasa.ras.couchdb - 0 High+, 1 Other
 - dev.galasa:dev.galasa.selenium.manager - 1 High+, 4 Other, 2 dependents
-- dev.galasa:dev.galasa.sem.manager - 2 High+
-- dev.galasa:dev.galasa.uber.obr - 4 High+, 8 Other
+- dev.galasa:dev.galasa.uber.obr - 3 High+, 8 Other
 - dev.galasa:dev.galasa.zossecurity.manager - 0 High+, 1 Other
-
-### dev.galasa:dev.galasa.artifact.manager
-
-- sonatype-2015-0002 - **Critical**
-  - commons-collections:commons-collections
-    - org.apache.velocity:velocity:1.7
-    - commons-collections:commons-collections:3.2.1
-
-- CVE-2020-13936 - **High**
-  - org.apache.velocity:velocity
-    - org.apache.velocity:velocity:1.7
-
 
 ### dev.galasa:dev.galasa.cps.etcd
 
@@ -1349,18 +1282,6 @@ Galasa Projects/Images directly affected:
     - org.yaml:snakeyaml:1.30
 
 
-### dev.galasa:dev.galasa.jmeter.manager
-
-- sonatype-2015-0002 - **Critical**
-  - commons-collections:commons-collections
-    - org.apache.velocity:velocity:1.7
-    - commons-collections:commons-collections:3.2.1
-
-- CVE-2020-13936 - **High**
-  - org.apache.velocity:velocity
-    - org.apache.velocity:velocity:1.7
-
-
 ### dev.galasa:dev.galasa.kubernetes.manager
 
 - CVE-2021-0341 - **High**
@@ -1453,23 +1374,7 @@ Galasa Projects/Images directly affected:
     - commons-io:commons-io:2.6
 
 
-### dev.galasa:dev.galasa.sem.manager
-
-- sonatype-2015-0002 - **Critical**
-  - commons-collections:commons-collections
-    - org.apache.velocity:velocity:1.7
-    - commons-collections:commons-collections:3.2.1
-
-- CVE-2020-13936 - **High**
-  - org.apache.velocity:velocity
-    - org.apache.velocity:velocity:1.7
-
-
 ### dev.galasa:dev.galasa.uber.obr
-
-- CVE-2020-13936 - **High**
-  - org.apache.velocity:velocity
-    - org.apache.velocity:velocity:1.7
 
 - CVE-2021-28165 - **High**
   - org.eclipse.jetty:jetty-io
