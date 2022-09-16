@@ -10,19 +10,19 @@
 - [sonatype-2021-1175](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1175) - High - 1 project
 - [sonatype-2021-0789](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0789) - High - 1 project
 - [CVE-2018-1000180](https://ossindex.sonatype.org/vulnerability/CVE-2018-1000180) - High - 1 project
-- [CVE-2020-25649](https://ossindex.sonatype.org/vulnerability/CVE-2020-25649) - High - 2 projects
-- [CVE-2020-36518](https://ossindex.sonatype.org/vulnerability/CVE-2020-36518) - High - 2 projects
+- [CVE-2020-25649](https://ossindex.sonatype.org/vulnerability/CVE-2020-25649) - High - 1 project
+- [CVE-2020-36518](https://ossindex.sonatype.org/vulnerability/CVE-2020-36518) - High - 1 project
 - [CVE-2021-0341](https://ossindex.sonatype.org/vulnerability/CVE-2021-0341) - High - 3 projects
 - [CVE-2021-28165](https://ossindex.sonatype.org/vulnerability/CVE-2021-28165) - High - 1 project
 - [CVE-2021-37136](https://ossindex.sonatype.org/vulnerability/CVE-2021-37136) - High - 1 project
 - [CVE-2021-37137](https://ossindex.sonatype.org/vulnerability/CVE-2021-37137) - High - 1 project
-- [CVE-2022-25647](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1694) - High - 31 projects
 - [CVE-2022-25857](https://ossindex.sonatype.org/vulnerability/CVE-2022-25857) - High - 4 projects
 - [sonatype-2020-1031](https://ossindex.sonatype.org/vulnerability/sonatype-2020-1031) - High - 1 project
 - [sonatype-2021-4682](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4682) - High - 1 project
 - [CVE-2020-27216](https://ossindex.sonatype.org/vulnerability/CVE-2020-27216) - High - 1 project
 - [CVE-2021-42550](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4517) - Medium - 1 project
 - [CVE-2021-43797](https://ossindex.sonatype.org/vulnerability/CVE-2021-43797) - Medium - 1 project
+- [CVE-2022-38751](https://ossindex.sonatype.org/vulnerability/CVE-2022-38751) - Medium - 4 projects
 - [CVE-2022-38752](https://ossindex.sonatype.org/vulnerability/CVE-2022-38752) - Medium - 4 projects
 - [sonatype-2020-0026](https://ossindex.sonatype.org/vulnerability/sonatype-2020-0026) - Medium - 1 project
 - [sonatype-2021-0818](https://ossindex.sonatype.org/vulnerability/sonatype-2021-0818) - Medium - 1 project
@@ -30,8 +30,6 @@
 - [sonatype-2022-4262](https://ossindex.sonatype.org/vulnerability/sonatype-2022-4262) - Medium - 2 projects
 - [CVE-2018-10237](https://ossindex.sonatype.org/vulnerability/CVE-2018-10237) - Medium - 1 project
 - [CVE-2018-20200](https://ossindex.sonatype.org/vulnerability/CVE-2018-20200) - Medium - 1 project
-- [CVE-2019-12384](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384) - Medium - 1 project
-- [CVE-2019-12814](https://ossindex.sonatype.org/vulnerability/CVE-2019-12814) - Medium - 1 project
 - [CVE-2020-15522](https://ossindex.sonatype.org/vulnerability/CVE-2020-15522) - Medium - 1 project
 - [CVE-2021-21295](https://ossindex.sonatype.org/vulnerability/CVE-2021-21295) - Medium - 1 project
 - [sonatype-2018-0035](https://ossindex.sonatype.org/vulnerability/sonatype-2018-0035) - Medium - 1 project
@@ -44,7 +42,7 @@
 - [CVE-2020-26939](https://ossindex.sonatype.org/vulnerability/CVE-2020-26939) - Medium - 2 projects
 - [CVE-2020-27223](https://ossindex.sonatype.org/vulnerability/CVE-2020-27223) - Medium - 1 project
 - [CVE-2021-29425](https://ossindex.sonatype.org/vulnerability/sonatype-2018-0705) - Medium - 1 project
-- [sonatype-2012-0050](https://ossindex.sonatype.org/vulnerability/sonatype-2012-0050) - Medium - 3 projects
+- [sonatype-2012-0050](https://ossindex.sonatype.org/vulnerability/sonatype-2012-0050) - Medium - 2 projects
 - [sonatype-2014-0173](https://ossindex.sonatype.org/vulnerability/sonatype-2014-0173) - Medium - 1 project
 - [sonatype-2021-4916](https://ossindex.sonatype.org/vulnerability/sonatype-2021-4916) - Medium - 3 projects
 - [CVE-2020-27218](https://ossindex.sonatype.org/vulnerability/CVE-2020-27218) - Medium - 1 project
@@ -187,14 +185,6 @@ Galasa Projects/Images directly affected:
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
 
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
 
 ### CVE-2020-36518
 
@@ -211,14 +201,6 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.framework.docker.controller
   - com.github.docker-java:docker-java-core:3.2.5
   - com.fasterxml.jackson.core:jackson-databind:2.10.3
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
 
 ### CVE-2021-0341
@@ -305,116 +287,6 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.cps.etcd
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec:4.1.52.Final
-
-
-### CVE-2022-25647
-
-Severity: **High**
-
-[Link](https://ossindex.sonatype.org/vulnerability/sonatype-2021-1694)
-
-Vulnerable artifacts:
-
-com.google.code.gson:gson:2.7
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework
-  - com.google.code.gson:gson:2.7
-
-- dev.galasa:dev.galasa.kubernetes.manager
-  - com.google.code.gson:gson:2.7
-
-- dev.galasa:dev.galasa.ras.couchdb
-  - com.google.code.gson:gson:2.7
-
-com.google.code.gson:gson:2.8.5
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.core.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.docker.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.elasticlog.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.bootstrap
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.cps
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.health
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.ras
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.runs
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.testcatalog
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.framework.api.webui
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.galasaecosystem.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.githubissue.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.http.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.http.manager.ivt
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.openstack.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.phoenix2.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.selenium.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zos3270.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosbatch.rseapi.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosbatch.zosmf.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosconsole.zosmf.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosfile.rseapi.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosfile.zosmf.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosmf.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zosrseapi.manager
-  - com.google.code.gson:gson:2.8.5
-
-- dev.galasa:dev.galasa.zossecurity.manager
-  - com.google.code.gson:gson:2.8.5
 
 
 ### CVE-2022-25857
@@ -538,6 +410,35 @@ Galasa Projects/Images directly affected:
 - dev.galasa:dev.galasa.cps.etcd
   - io.netty:netty-handler-proxy:4.1.52.Final
   - io.netty:netty-codec-http:4.1.52.Final
+
+
+### CVE-2022-38751
+
+Severity: **Medium**
+
+[Link](https://ossindex.sonatype.org/vulnerability/CVE-2022-38751)
+
+Vulnerable artifacts:
+
+org.yaml:snakeyaml:1.29
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.kubernetes.manager
+  - org.yaml:snakeyaml:1.29
+
+org.yaml:snakeyaml:1.30
+
+Galasa Projects/Images directly affected:
+
+- dev.galasa:dev.galasa.framework.k8s.controller
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.galasaecosystem.manager
+  - org.yaml:snakeyaml:1.30
+
+- dev.galasa:dev.galasa.uber.obr
+  - org.yaml:snakeyaml:1.30
 
 
 ### CVE-2022-38752
@@ -697,40 +598,6 @@ Galasa Projects/Images directly affected:
 
 - dev.galasa:dev.galasa.selenium.manager
   - com.squareup.okhttp3:okhttp:3.11.0
-
-
-### CVE-2019-12384
-
-Severity: **Medium**
-
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2019-12384)
-
-Vulnerable artifacts:
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-
-### CVE-2019-12814
-
-Severity: **Medium**
-
-[Link](https://ossindex.sonatype.org/vulnerability/CVE-2019-12814)
-
-Vulnerable artifacts:
-
-com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - com.fasterxml.jackson.core:jackson-databind:2.9.9
 
 
 ### CVE-2020-15522
@@ -1030,14 +897,6 @@ Galasa Projects/Images directly affected:
   - org.apache.httpcomponents:httpclient-osgi:4.5.13
   - commons-codec:commons-codec:1.11
 
-commons-codec:commons-codec:1.12
-
-Galasa Projects/Images directly affected:
-
-- dev.galasa:dev.galasa.framework.api.authentication
-  - com.auth0:java-jwt:3.8.1
-  - commons-codec:commons-codec:1.12
-
 
 ### sonatype-2014-0173
 
@@ -1216,44 +1075,18 @@ Galasa Projects/Images directly affected:
 ### Summary
 
 - dev.galasa:dev.galasa.artifact.manager - 2 High+, 28 dependents
-- dev.galasa:dev.galasa.core.manager - 1 High+, 12 dependents
 - dev.galasa:dev.galasa.cps.etcd - 4 High+, 7 Other, 1 dependents
-- dev.galasa:dev.galasa.docker.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.elasticlog.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.framework - 1 High+, 34 dependents
-- dev.galasa:dev.galasa.framework.api - 1 High+
-- dev.galasa:dev.galasa.framework.api.authentication - 3 High+, 3 Other
-- dev.galasa:dev.galasa.framework.api.bootstrap - 1 High+
-- dev.galasa:dev.galasa.framework.api.cps - 1 High+
-- dev.galasa:dev.galasa.framework.api.health - 1 High+
-- dev.galasa:dev.galasa.framework.api.ras - 1 High+
-- dev.galasa:dev.galasa.framework.api.runs - 1 High+
-- dev.galasa:dev.galasa.framework.api.testcatalog - 1 High+
-- dev.galasa:dev.galasa.framework.api.webui - 1 High+
 - dev.galasa:dev.galasa.framework.docker.controller - 3 High+, 8 Other, 1 dependents
-- dev.galasa:dev.galasa.framework.k8s.controller - 5 High+, 12 Other, 1 dependents
-- dev.galasa:dev.galasa.galasaecosystem.manager - 2 High+, 1 Other
-- dev.galasa:dev.galasa.githubissue.manager - 1 High+
-- dev.galasa:dev.galasa.http.manager - 1 High+
-- dev.galasa:dev.galasa.http.manager.ivt - 1 High+
+- dev.galasa:dev.galasa.framework.k8s.controller - 5 High+, 13 Other, 1 dependents
+- dev.galasa:dev.galasa.galasaecosystem.manager - 1 High+, 2 Other
 - dev.galasa:dev.galasa.jmeter.manager - 2 High+, 1 dependents
-- dev.galasa:dev.galasa.kubernetes.manager - 3 High+, 5 Other, 7 dependents
+- dev.galasa:dev.galasa.kubernetes.manager - 2 High+, 6 Other, 7 dependents
 - dev.galasa:dev.galasa.mq.manager - 0 High+, 3 Other, 1 dependents
-- dev.galasa:dev.galasa.openstack.manager - 1 High+
-- dev.galasa:dev.galasa.phoenix2.manager - 1 High+
-- dev.galasa:dev.galasa.ras.couchdb - 1 High+, 1 Other
-- dev.galasa:dev.galasa.selenium.manager - 2 High+, 4 Other, 2 dependents
+- dev.galasa:dev.galasa.ras.couchdb - 0 High+, 1 Other
+- dev.galasa:dev.galasa.selenium.manager - 1 High+, 4 Other, 2 dependents
 - dev.galasa:dev.galasa.sem.manager - 2 High+
-- dev.galasa:dev.galasa.uber.obr - 4 High+, 7 Other
-- dev.galasa:dev.galasa.zos3270.manager - 1 High+, 1 dependents
-- dev.galasa:dev.galasa.zosbatch.rseapi.manager - 1 High+
-- dev.galasa:dev.galasa.zosbatch.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosconsole.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosfile.rseapi.manager - 1 High+
-- dev.galasa:dev.galasa.zosfile.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosmf.manager - 1 High+
-- dev.galasa:dev.galasa.zosrseapi.manager - 1 High+
-- dev.galasa:dev.galasa.zossecurity.manager - 1 High+, 1 Other
+- dev.galasa:dev.galasa.uber.obr - 4 High+, 8 Other
+- dev.galasa:dev.galasa.zossecurity.manager - 0 High+, 1 Other
 
 ### dev.galasa:dev.galasa.artifact.manager
 
@@ -1265,13 +1098,6 @@ Galasa Projects/Images directly affected:
 - CVE-2020-13936 - **High**
   - org.apache.velocity:velocity
     - org.apache.velocity:velocity:1.7
-
-
-### dev.galasa:dev.galasa.core.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
 
 
 ### dev.galasa:dev.galasa.cps.etcd
@@ -1344,115 +1170,6 @@ Galasa Projects/Images directly affected:
   - com.google.protobuf:protobuf-java
     - com.google.protobuf:protobuf-java-util:3.17.2
     - com.google.protobuf:protobuf-java:3.17.2
-
-
-### dev.galasa:dev.galasa.docker.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.elasticlog.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.7
-
-
-### dev.galasa:dev.galasa.framework.api
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.authentication
-
-- CVE-2020-25649 - **High**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2020-36518 - **High**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-- CVE-2019-12384 - **Medium**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- CVE-2019-12814 - **Medium**
-  - com.fasterxml.jackson.core:jackson-databind
-    - com.auth0:java-jwt:3.8.1
-    - com.fasterxml.jackson.core:jackson-databind:2.9.9
-
-- sonatype-2012-0050 - **Medium**
-  - commons-codec:commons-codec
-    - com.auth0:java-jwt:3.8.1
-    - commons-codec:commons-codec:1.12
-
-
-### dev.galasa:dev.galasa.framework.api.bootstrap
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.cps
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.health
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.ras
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.runs
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.testcatalog
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.framework.api.webui
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
 
 
 ### dev.galasa:dev.galasa.framework.docker.controller
@@ -1546,6 +1263,10 @@ Galasa Projects/Images directly affected:
     - ch.qos.logback:logback-classic:1.2.3
     - ch.qos.logback:logback-core:1.2.3
 
+- CVE-2022-38751 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
 - CVE-2022-38752 - **Medium**
   - org.yaml:snakeyaml
     - org.yaml:snakeyaml:1.30
@@ -1615,38 +1336,17 @@ Galasa Projects/Images directly affected:
 
 ### dev.galasa:dev.galasa.galasaecosystem.manager
 
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
 - CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
+- CVE-2022-38751 - **Medium**
   - org.yaml:snakeyaml
     - org.yaml:snakeyaml:1.30
 
 - CVE-2022-38752 - **Medium**
   - org.yaml:snakeyaml
     - org.yaml:snakeyaml:1.30
-
-
-### dev.galasa:dev.galasa.githubissue.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.http.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.http.manager.ivt
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
 
 
 ### dev.galasa:dev.galasa.jmeter.manager
@@ -1669,11 +1369,11 @@ Galasa Projects/Images directly affected:
     - io.kubernetes:client-java-api:14.0.0
     - com.squareup.okhttp3:okhttp:4.9.1
 
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.7
-
 - CVE-2022-25857 - **High**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.29
+
+- CVE-2022-38751 - **Medium**
   - org.yaml:snakeyaml
     - org.yaml:snakeyaml:1.29
 
@@ -1722,25 +1422,7 @@ Galasa Projects/Images directly affected:
     - org.bouncycastle:bcprov-jdk15on:1.68
 
 
-### dev.galasa:dev.galasa.openstack.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.phoenix2.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.ras.couchdb
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.7
 
 - sonatype-2012-0050 - **Medium**
   - commons-codec:commons-codec
@@ -1753,10 +1435,6 @@ Galasa Projects/Images directly affected:
 - CVE-2021-0341 - **High**
   - com.squareup.okhttp3:okhttp
     - com.squareup.okhttp3:okhttp:3.11.0
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
 
 - sonatype-2020-0926 - **Medium**
   - com.google.guava:guava
@@ -1808,6 +1486,10 @@ Galasa Projects/Images directly affected:
     - org.apache.felix:org.apache.felix.http.jetty:4.0.14
     - org.eclipse.jetty:jetty-webapp:9.4.20.v20190813
 
+- CVE-2022-38751 - **Medium**
+  - org.yaml:snakeyaml
+    - org.yaml:snakeyaml:1.30
+
 - CVE-2022-38752 - **Medium**
   - org.yaml:snakeyaml
     - org.yaml:snakeyaml:1.30
@@ -1854,67 +1536,7 @@ Galasa Projects/Images directly affected:
     - org.eclipse.jetty:jetty-server:9.4.20.v20190813
 
 
-### dev.galasa:dev.galasa.zos3270.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosbatch.rseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosbatch.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosconsole.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosfile.rseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosfile.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosmf.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
-### dev.galasa:dev.galasa.zosrseapi.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
-
-
 ### dev.galasa:dev.galasa.zossecurity.manager
-
-- CVE-2022-25647 - **High**
-  - com.google.code.gson:gson
-    - com.google.code.gson:gson:2.8.5
 
 - sonatype-2019-0673 - **Low**
   - org.bouncycastle:bcprov-jdk15on
